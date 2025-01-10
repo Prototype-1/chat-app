@@ -40,6 +40,6 @@ spec:
       port: 8080
       targetPort: 8080
       nodePort: 30007  # You can specify any port in the range 30000-32767
-  type: LoadBalancer
+  type: NodePort
    
 
